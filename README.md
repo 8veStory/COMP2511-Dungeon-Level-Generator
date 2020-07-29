@@ -38,9 +38,10 @@ $
 
 **NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
 
-1. Create a file that follows the conditions (refer to 'coolDungeon' as an example):
+1. Create a file that follows the conditions (refer to **'exampleDungeon'** as an example):
    * It has the name of the level you want to generate. 
    * It is filled with a rectangular grid of the following characters, representing one tile of your dungeon:
+   * NOTE: File extension can be anything, it won't be read.
 
 | Character | Entity Type |
 | --------- |:------------:|
