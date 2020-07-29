@@ -31,7 +31,7 @@
 
 # ADDING MORE ENTITIES:
 # Go down to the 'case "$char" in' statement down in the code and manually add it.
-# Should only need to add 3 lines.
+# Should only need to add 2 lines.
 
 ##################
 # IMPLEMENTATION #
