@@ -44,7 +44,7 @@ $
 
 | Character | Entity Type |
 | --------- |:------------:|
-|'.'| (doesn't do anything)|
+|'.'| (empty tile)|
 |'#'| 'wall'|
 |'P'| 'player'|
 |'E'| 'enemy'|
