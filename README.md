@@ -18,9 +18,11 @@ $ cat shortDungeon
 #.T.#
 #..X#
 #####
+
 $ ./genDungeon.sh shortDungeon
 Generating level 'shortDungeon.json'
 Successfully created level 'shortDungeon.json'
+
 $ head shortDungeon.json
 {
   "width": 5,
