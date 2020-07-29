@@ -1,6 +1,6 @@
 #!/bin/dash
 
-# Author: Created by 8veFable, 29/07/2020, to assist in the process of creating levels for COMP2511's Dungeon Game assignment. 
+# Author: Created by Ryan Nguyen, 29/07/2020, to assist in the process of creating levels for COMP2511's Dungeon Game assignment. 
 
 # WHAT DOES IT DO?
 # Automatically generates a dungeon .json file if you give it a file that has your dungeon
