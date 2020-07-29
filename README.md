@@ -10,8 +10,8 @@ Given a file that represents your Dungeon with ASCII character, it automatically
 
 **NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
 
-1. Create a file that follows the conditions (refer to **'exampleDungeon'** as an example):
-   * It has the name of the level you want to generate. 
+1. Create a file that has the following (refer to **'exampleDungeon'** as an example):
+   * It has the name of the level you want to generate. (File extension doesn't matter; it won't be read)
    * It is filled with a rectangular grid consisting of the ASCII characters corresponding to entities (**table down below**).
 
 2. Run the shell script with the file(s) like so:
