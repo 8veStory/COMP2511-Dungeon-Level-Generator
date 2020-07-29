@@ -7,10 +7,6 @@ Automatically generates a dungeon .json file if you give it a file that has your
 
 # Usage
 
-**NOTE**: **IDs of 'doors', 'key' and 'portal' entities are all set to 1**, and so must be configured manually for other values.
-
-**NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
-
 ```
 $ cat shortDungeon
 #####
@@ -37,6 +33,10 @@ $ head shortDungeon.json
     
 $
 ```
+
+**NOTE**: **IDs of 'doors', 'key' and 'portal' entities are all set to 1 by default**, and so must be configured manually for other values.
+
+**NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
 
 1. Create a file that follows the conditions (refer to 'coolDungeon' as an example):
    * It has the name of the level you want to generate. 
