@@ -1,5 +1,7 @@
 # COMP2511-Dungeon-Level-Generator
 
+![Example Dungeon represented in ASCII, versus it loaded in the Dungeon Game](/exampleDungeon.png)
+
 # What does it do?
 
 Given a file that represents your Dungeon with ASCII character, it automatically creates a .json file in the correct format to load into the game.
