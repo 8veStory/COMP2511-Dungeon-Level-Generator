@@ -34,6 +34,7 @@ $ head shortDungeon.json
       "type": "wall"
     },
     {
+    
 $
 ```
 
