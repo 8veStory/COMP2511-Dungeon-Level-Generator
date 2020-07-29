@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/sh
 
 # Author: Created by Ryan Nguyen, 29/07/2020, to assist in the process of creating levels for COMP2511's Dungeon Game assignment. 
 
