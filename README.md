@@ -6,6 +6,16 @@ Given a file that represents your Dungeon with ASCII character, it automatically
 
 # Usage
 
+**NOTE**: **IDs of 'doors', 'key' and 'portal' entities are all set to 1 by default**, and so must be configured manually for other values.
+
+**NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
+
+1. Create a file that follows the conditions (refer to **'exampleDungeon'** as an example):
+   * It has the name of the level you want to generate. 
+   * It is filled with a rectangular grid consisting of the aforementioned characters.
+
+2. Run the shell script with the file(s) like so:
+
 ```
 $ cat shortDungeon
 #####
@@ -51,22 +61,7 @@ $
 |'K'| 'key'|
 |'O'| 'portal'|
 
-## Detailed Steps
 
-**NOTE**: **IDs of 'doors', 'key' and 'portal' entities are all set to 1 by default**, and so must be configured manually for other values.
-
-**NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
-
-1. Create a file that follows the conditions (refer to **'exampleDungeon'** as an example):
-   * It has the name of the level you want to generate. 
-   * It is filled with a rectangular grid consisting of the aforementioned characters.
-
-2. Run the shell script with the file(s) like so:
-```
-$ ./genDungeon.sh dungeonFile
-Generating level 'dungeonFile.json'
-Successfully created level 'dungeonFile.json'
-```
 
 ## Adding More Entities / Editing the entity types:
 
