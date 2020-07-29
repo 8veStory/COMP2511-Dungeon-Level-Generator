@@ -1,9 +1,8 @@
 # COMP2511-Dungeon-Level-Generator
-Dungeon level generator for COMP2511's Dungeon Game Assignment
 
 # What does it do?
 
-Automatically generates a dungeon .json file if you give it a file that has your dungeon represented in ASCII.
+Given a file that represents your Dungeon with ASCII character, it automatically creates a .json file in the correct format to load into the game.
 
 # Usage
 
