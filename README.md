@@ -4,7 +4,7 @@
 
 # What does it do?
 
-Given a file that represents your Dungeon with ASCII character, it automatically creates a .json file in the correct format to load into the game.
+Given a file that represents your Dungeon with ASCII characters, it automatically creates a .json file in the correct format to load into the game.
 
 # Usage
 
