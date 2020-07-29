@@ -54,7 +54,7 @@ $
 |'P'| 'player'|
 |'E'| 'enemy'|
 |'S'| 'sword'|
-|'I'| 'invincibility Potion'|
+|'I'| 'invincibility'|
 |'X'| 'exit'|
 |'T'| 'treasure'|
 |'B'| 'boulder'|
