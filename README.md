@@ -11,6 +11,30 @@ Automatically generates a dungeon .json file if you give it a file that has your
 
 **NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
 
+```
+$ cat shortDungeon
+#####
+#P..#
+#.T.#
+#..X#
+#####
+$ ./genDungeon.sh shortDungeon
+Generating level 'shortDungeon.json'
+Successfully created level 'shortDungeon.json'
+$ head shortDungeon.json
+{
+  "width": 5,
+  "height": 5,
+  "entities": [
+    {
+      "x": 0,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+$
+```
+
 1. Create a file that follows the conditions (refer to 'coolDungeon' as an example):
    * It has the name of the level you want to generate. 
    * It is filled with a rectangular grid of the following characters, representing one tile of your dungeon:
@@ -32,19 +56,13 @@ Automatically generates a dungeon .json file if you give it a file that has your
 |'O'| 'portal'|
 
 
-2. Run the shell script with the files like so:
+2. Run the shell script with the file(s) like so:
 ```
-$ cat shortDungeon
-#####
-#P..#
-#.T.#
-#..X#
-#####
-$ ./genDungeon.sh shortDungeon
-Generating level 'shortDungeon.json'
-Successfully created level 'shortDungeon.json'
+$ ./genDungeon.sh dungeonFile
+Generating level 'dungeonFile.json'
+Successfully created level 'dungeonFile.json'
+```
 
-```
 
 ## Adding More Entities / Editing the entity types:
 
