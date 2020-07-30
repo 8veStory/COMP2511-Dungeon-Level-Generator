@@ -58,7 +58,7 @@ $
 |'X'| 'exit'|
 |'T'| 'treasure'|
 |'B'| 'boulder'|
-|'F'| 'floor switch'|
+|'F'| 'switch'|
 |'D'| 'door'|
 |'K'| 'key'|
 |'O'| 'portal'|
