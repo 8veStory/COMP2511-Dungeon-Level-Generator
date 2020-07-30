@@ -2,15 +2,10 @@
 
 ![Example Dungeon represented in ASCII, versus it loaded in the Dungeon Game](/exampleDungeon.png)
 
-# What does it do?
+Given a file that represents your Dungeon with ASCII characters, it automatically creates a .json file in the correct format to load into the game. Script is POSIX compliant (well, at least /bin/dash says so).
 
-Given a file that represents your Dungeon with ASCII characters, it automatically creates a .json file in the correct format to load into the game.
 
 # Usage
-
-**NOTE**: **IDs of 'doors', 'key' and 'portal' entities are all set to 1 by default**, and so must be configured manually for other values.
-
-**NOTE**: **Goal condition is set to 'exit' by default**, and so  must be configured manually for other conditions.
 
 1. Create a file that has the following (refer to **'exampleDungeon'** as an example):
    * It has the name of the level you want to generate. (File extension doesn't matter; it won't be read)
@@ -44,6 +39,11 @@ $ head shortDungeon.json
     
 $
 ```
+
+**NOTE**: **IDs of 'doors', 'key' and 'portal' entities are all set to 1 by default**.
+
+**NOTE**: **Goal condition is set to 'exit' by default**.
+
 
 ## Entities
 
