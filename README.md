@@ -7,9 +7,9 @@ Given a file that represents your Dungeon with ASCII characters, it automaticall
 
 # Usage
 
-1. Create a file that has the following (refer to **'exampleDungeon'** as an example):
-   * It has the name of the level you want to generate. (File extension doesn't matter; it won't be read)
-   * It is filled with a rectangular grid consisting of the ASCII characters corresponding to entities (**table down below**).
+1. Create a file that satisfies the following: (e.g. refer to **'exampleDungeon'**)
+   * Is **filename is the name of the level**. (file extension doesn't matter)
+   * It contains a **rectangular grid consisting of the ASCII characters corresponding to the entities** (**table down below**).
 
 2. Run the shell script with the file(s) like so:
 
